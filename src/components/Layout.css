@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+/* html {
+    font-size: 62.5%;
+} */
+
+/* -----navclasses ------*/
+.btnatck {
+    background-color: #f63 !important;
+    height: auto;
+}
+
+.btnlogin {
+    width: 20%;
+    background-color: #003682;
+}
+
+.logo img {
+    width: 25%;
+    padding-left: 10px;
+
+}
+
+.rightnav {
+    /* padding: 1rem; */
+    padding-left: 250px;
+    /* padding-inline-start: 5; */
+}
+
+.rightnav select {
+    border: none;
+    background: none;
+    width: 90px;
+}
+
+/*-------Header--------------*/
+.myheader {
+    margin-top: 120px;
+    max-width: 1400px
+}
+
+.myheader h2 {
+    font-size: 30px;
+
+}
+
+.headimg img {
+    margin-left: -450px;
+    width: 180%;
+}
+
+/*--------Add------*/
+
+.addwatch {
+    background-color: #003682 !important;
+    width: 100%;
+    height: 180px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 85px !important;
+
+}
+
+
+.addbtn {
+    background-color: #f6821f !important;
+    color: white;
+    width: 30%;
+    height: 60px;
+    margin-left: 100px;
+}
+
+/*--------------whatsNew----------------*/
+
+.whtsnewContainer {
+    height: 500px;
+
+}
+
+.whtsnewContainer h3 {
+    margin-top: 20px;
+}
+
+.whtsnew {
+    font-weight: 500;
+    color: #f6821f !important;
+}
+
+
+.blog {
+    color: #003682 !important;
+    font-weight: 650;
+}
+
+/*-------------Card items------------*/
+.card {
+    height: 520px;
+}
+
+.exploreimg {
+    width: 15%;
+}
+
+.viewplans {
+    color: #003682;
+    font-weight: 600;
+
+}
+
+.listitem {
+    height: 200px;
+}
+
+.imgSecurity {
+    height: 500px;
+}
+
+.lockimg {
+    width: 10%;
+}
+
+.whycloudflare {
+    background-color: lightcyan;
+    margin: 2rem auto;
+    padding: 6rem;
+    position: relative;
+    height: 700px;
+}
+
+.imgwhycloud video {
+    width: 450px;
+    height: 300px;
+
+    /* position: absolute; */
+}
+
+.mycompany {
+    height: 700px;
+    padding-top: 3rem;
+
+}
+
+.companies {
+    display: flex;
+
+
+}
+
+.companies img {
+    padding: 3rem;
+    width: 20%;
+}
+
+.companies h3 {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+
+/*-------Slider-------*/
+.slidermain {
+    background-color: #e2f5fa !important;
+    margin-top: 30px;
+    padding: 150px;
+    height: 650px;
+    text-align: inline;
+
+}
+
+.slidermain img {
+    width: 30%;
+    margin-top: 40px;
+}
+
+.bottomcaption {
+    margin-top: 40px;
+
+}
+
+/*-----carousel-indicators----*/
+
+.btnindicator button {
+    color: black !important;
+
+}
+
+/*---------Footer-------*/
+.myfooter {
+    height: 550px;
+    background-color: #222 !important;
+    color: white;
+    padding-left: 30px;
+
+}
+
+.footerbottom {
+    margin-left: 40px;
+}
+
+
+/*--------------SignUp--------*/
+.signupleft {
+    height: 600px;
+    background-color: rgb(233, 247, 251);
+}
+
+/*Media queries */
+@media(max-width: 1344px) {
+    .myheader {
+        max-width: 1250px;
+    }
+}
+
+@media(max-width: 576px) {
+
+    .rightnav {
+        padding: 0 15px;
+        flex-flow: column;
+    }
+
+    .rightnav div {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .imgwhycloud {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imgwhycloud video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .companies img {
+        padding: 1rem;
+    }
+
+}
